@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+html body {
+    font-family: 'Nunito';
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul li {
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* :) ======= header section start ======= (: */
+header .navbar {
+    background-color:   #00050D;
+    color: #fff;
+    padding: 12px 51px;
+}
+
+header .navbar .logo {
+    width: 100px;
+    margin-right: 2.5rem;
+}
+
+header .navbar ul li a {
+    padding: .5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+header .navbar ul li a:hover {
+    background-color: #fff;
+    color: #00050D;
+}
+
+header .navbar ul li svg {
+    width: 21px;
+    fill: #fff;
+    margin-right: 5px;
+}
+
+header .navbar ul li a:hover svg {
+    fill: #00050D;
+}
+
+header .navbar ul:last-child li:not(:nth-child(2), :last-child) a {
+    border-radius: 50%;
+    padding: 12px 15px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+header .navbar ul:last-child li:last-child a {
+    background-color: #1A98FFCC;
+    color: #fff;
+}
+
+header .navbar ul:last-child li:last-child a:hover {
+    box-shadow: #1A98FFCC 0px 7px 29px 0px;
+
+}
+
+.line {
+    background-color: #6e6e7d;
+    width: 0.5px;
+    height: 0.5px;
+}
+
+
+/* :) ======= header section End ======= (: */
+
+/*:) ============== Section1  Strat ============== (:  */
+.main {
+    background-color: #000000;
+    height: 100%;
+    width: 45%;
+    box-shadow: 70px 0px 70px 10px rgb(0, 0, 0), 80px 1px 80px #000000;
+    ;
+}
+
+.container .section1 {
+    background-image: url("../images/MLP.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.container .section1 .txt {
+    position: absolute;
+    left: 3rem;
+    top: 8rem;
+}
+
+.container .section1 .txt h1 {
+    color: #fff;
+    font-size: 3.1rem;
+}
+
+.container .section1 .txt-2 {
+    position: absolute;
+    width: 43%;
+    left: 3rem;
+    top: 15rem;
+}
+
+.container .section1 .txt-2 p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.container .section1 .btn {
+    position: absolute;
+    width: 43%;
+    left: 3rem;
+    top: 22rem;
+}
+
+.container .section1 .main .btn a {
+    padding: 15px 24px;
+    font-size: 1.3rem;
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container .section1 .main .btn a:hover {
+    transform: scale(1.05);
+    box-shadow: inset 0 0 60px #32333399;
+    color: #32333399;
+}
+
+/* :) ============== Section1  End ============== (:  */
+
+/*:) ============== Section2  Strat ============== (:  */
+.main-2 {
+    background-color: #000000;
+    height: 100%;
+    width: 45%;
+    box-shadow: 100px 30px 80px 30px #000000, 80px 1px 80px #000000;
+}
+
+.container .section2 {
+    background-image: url("../images/TVOD_MLP_Right.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.container .section2 .txt {
+    position: absolute;
+    width: 40%;
+    left: 3rem;
+    top: 5rem;
+}
+
+.container .section2 .txt h1 {
+    color: #fff;
+    font-size: 3.1rem;
+}
+
+.container .section2 .txt-2 {
+    position: absolute;
+    width: 43%;
+    left: 3rem;
+    top: 15rem;
+}
+
+.container .section2 .txt-2 p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.container .section2 .btn {
+    position: absolute;
+    width: 43%;
+    left: 3rem;
+    top: 20rem;
+}
+
+.container .section2 .main-2 .btn a {
+    padding: 15px 24px;
+    font-size: 1.3rem;
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container .section2 .main-2 .btn a:hover {
+    transform: scale(1.05);
+    box-shadow: inset 0 0 60px #32333399;
+    color: #32333399;
+}
+
+/* :) ============== Section2  End ============== (:  */
+
+
+/*:) ============== Section3  Strat ============== (:  */
+
+.container .section3 {
+    background-color: #00050D;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.container .section3 .txt {
+    position: absolute;
+    width: 45%;
+    left: 3rem;
+    top: 5rem;
+}
+
+.container .section3 .txt h1 {
+    color: #fff;
+    font-size: 3.1rem;
+}
+
+.container .section3 .txt-2 {
+    position: absolute;
+    width: 43%;
+    left: 3rem;
+    top: 15rem;
+}
+
+.container .section3 .txt-2 p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.container .section3 .imgcont {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.container .section3 .img-1 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.container .section3 .img-2 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.container .section3 .img-3 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.container .section3 .img-1 img {
+    width: 15%;
+    margin: 0.3rem;
+    border-radius: 10px;
+
+}
+
+.container .section3 .img-2 img {
+    width: 15%;
+    margin: 0.3rem;
+    border-radius: 10px;
+}
+
+.container .section3 .img-3 img {
+    width: 15%;
+    margin: 0.3rem;
+    border-radius: 10px;
+}
+
+.container .section3 .img-1 img:hover {
+    box-shadow: #7b7b7b80 0px 5px 15px;
+}
+
+.container .section3 .img-2 img:hover {
+    box-shadow: #7b7b7b80 0px 5px 15px;
+}
+
+.container .section3 .img-3 img:hover {
+    box-shadow: #7b7b7b80 0px 5px 15px;
+}
+
+/* :) ============== Section3  End ============== (:  */
+/* :) ============== Section4  End ============== (:  */
+.container .section4 {
+    background-color: #222222;
+    width: 100%;
+    height: 150px;
+    display: flex;
+
+}
+
+.container .section4 .imgcont-2 {
+    width: 100%;
+}
+
+.container .section4 .imgcont-2>div {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.container .section4 .imgcont-2 img {
+    width: 10%;
+}
+
+.container .section4 .txt-3 {
+    top: 0;
+}
+
+.container .section4 .txt-3 a {
+    color: #79B8F3;
+    margin: 5px;
+}
+
+.container .section4 .txt-3 a:hover {
+    color: #5dc9f8c4;
+}
+
+.container .section4 .imgcont-2 p {
+    color: #6e6e7d;
+}
+
+/* :) ============== Section4  End ============== (:  */
